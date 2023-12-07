@@ -2,8 +2,11 @@
 An EventBus with no try-catch blocks.  
 Try-catch blocks are one of the causes of performance degradation, but for some reason other EventBus use try-catch blocks when executing events. 
 This is why I have created this repository.
+This EventBus does not contain any try-catch blocks, so it allows you to process the Event faster.
 
-Try-catch ブロックはパフォーマンス低下の原因の 1 つですが、何らかの理由で他の EventBus はイベントの実行時に Try-catch ブロックを使用します。これがこのリポジトリを作成した理由です。
+Try-catch ブロックはパフォーマンス低下の原因の 1 つですが、何らかの理由で他の EventBus はイベントの実行時に Try-catch ブロックを使用します。
+これがこのリポジトリを作成した理由です。
+この EventBus には try-catch ブロックが含まれていないため、イベントをより高速に処理できます。
 ## How to use
 - Make a custom EventArgument
 ```java
